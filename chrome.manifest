@@ -1,0 +1,5 @@
+content notifications chrome/content/
+skin notifications classic/1.0 chrome/skin/
+
+overlay chrome://browser/content/browser.xul chrome://notifications/content/overlay.xul
+style chrome://global/content/customizeToolbar.xul chrome://notifications/skin/toolbar-button.css

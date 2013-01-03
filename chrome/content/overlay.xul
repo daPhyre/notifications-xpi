@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://notifications/skin/toolbar-button.css" type="text/css"?>
+<overlay id="notifications-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<!--toolbarpalette id="BrowserToolbarPalette"-->
+<toolbar id="nav-bar">
+  <box style="position:relative">
+    <toolbarbutton id="notificationsBadge" class="toolbarbutton-1" label="Notifications" tooltiptext="Notifications, for Firefox" />
+    <textnode id="notificationsBadgetext">-</textnode>
+  </box>
+</toolbar>
+<!--/toolbarpalette-->
+<script type="application/javascript" src="chrome://notifications/content/script.js"></script>
+</overlay>

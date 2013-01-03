@@ -1,0 +1,18 @@
+#notificationsBadge{
+	list-style-image:url("chrome://notifications/skin/icon24.png");
+}
+
+#notificationsBadgetext{
+	font:bold 9px sans-serif;
+	color:#fff;background:#666;opacity:0.9;
+	position:absolute;bottom:2px;right:0;padding:0 2px;
+	border-radius:3px
+}
+
+toolbar[iconsize="small"] #notificationsBadge{
+	list-style-image:url("chrome://notifications/skin/icon16.png");
+}
+
+toolbar[iconsize="small"] #notificationsBadgetext{
+	font:bold 7px sans-serif;
+}

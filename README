@@ -1,0 +1,20 @@
+== Notifications, for Mozilla Firefox ==
+
+Source code base to create notification extensions for Mozilla Firefox. This is based on https://github.com/daPhyre/notifications-crx , and though functiona, is still under development; won't be accepted yet on the Mozilla Add-on site as is.
+
+In order to make your own extension from this base, and to avoid crashes with other extensions developed from it, you MUST replace the text "notifications" (lower-case) with the unique id of your own extension, from the next files:
+
+- install.rdf
+- chrome.manifest
+- chrome/skin/toolbar-button.css
+- chrome/content/overlay.xul
+- chrome/content/script.js
+
+To personalize for your own extension, you just have to modify from chrome/content/script.js lines 2 to 4, and modify or rewrite lines 23 to 44, this last depending on the page resources.
+
+Enjoy making your notification extensions for Firefox :)
+
+Questions, Suggestions, Gratifications*?
+Contact the developer at ext@jugaa.me
+
+*(As in simple thanks or whatever you wish =D)
